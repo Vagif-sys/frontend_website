@@ -1,0 +1,406 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+
+    max-width:1100px;
+    width:100%;
+    margin:0 auto;
+}
+
+header {
+    padding: 20px 0;
+   /*  position: fixed; */
+    width: 100%;
+}
+header .loginAndRegister .loginAndRegisterButtons li {
+    margin-left:11px;
+}
+.row{
+    display: flex;
+    justify-content: space-between
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+header .loginAndRegister .loginAndRegisterButtons .registerBtn{
+
+    padding:7px 25px;
+    background: #008D96;
+    border-radius: 40px;
+    color:#fff;
+}
+
+header .loginAndRegister .loginAndRegisterButtons .loginBtn{
+
+    padding:7px 25px;
+    border:1px solid #008D96;
+    border-radius: 40px;
+    color: #008D96;
+}
+
+header .menu .menuLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.loginAndRegisterButtons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.wish {
+    padding: 0 10px;
+    margin-right: 30px;
+}
+
+.logo,
+.menu,
+.loginAndRegister{
+    width: 33%;
+}
+
+.menu .menuLinks .menuLink .courses{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1B2221;
+}
+
+
+.menu .menuLinks .menuLink .wish{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #008D96;
+}
+
+/* end of header section */
+
+.banner{
+    height:100px;
+    background-image:
+    linear-gradient(rgba(0, 141, 150, 1), rgba(0, 141, 150, 0.5)),
+    url('../images/laptop.png');
+    background-size: cover;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.menuCourses{
+    text-align: center;
+}
+
+
+.laptopMenu ul li {
+    display: inline-block;
+    margin: 0 10px;
+}
+
+.laptopMenu ul  li:not(:first-child)::before {
+ content: '\25cf\a0';
+ color:white;
+ margin-right: 20px;
+}
+
+
+
+.menuCourses h2{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    color: #FFFFFF;
+}
+.menuCourses .mainPage{
+  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align: center;
+    line-height: 30px;
+    color: #FFFFFF;
+
+}
+
+
+.menuCourses .listCourse{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #FFFFFF;
+}
+
+/* end banner section */
+
+.aboutUs{
+  
+    display:flex;
+    justify-content: space-between;
+    margin:90px 55px;
+    
+}
+
+.aboutPic{
+    
+    padding:115px 150px;
+    border: 1px solid #008D96;
+    border-radius: 20px;
+    position:relative;
+    
+}
+
+.aboutPic img{
+
+    position:absolute;
+    top:-10px;
+    right:5px;
+    border-radius: 20px;
+}
+
+
+.aboutUsText p{
+
+    width:80%;
+   
+}
+
+.limit {
+     
+     margin-left:60px;
+}
+
+/* offer secion */
+
+section.adv{
+    padding-bottom: 90px;
+     background: #E3F1F2;
+   
+ }
+ 
+ .title2 {
+     padding-top: 60px;
+ }
+ .title2 h2{
+     
+     
+     font-family: 'Lora';
+     font-style: normal;
+     font-weight: 600;
+     font-size: 41px;
+     line-height: 68px;
+     color: #1B2221;
+ 
+ }
+ 
+ .title2 p{
+ 
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 15px;
+     line-height: 36px;
+     color: #1B2221;
+ }
+ 
+ .offers{
+     display:flex;
+     align-items: center;
+     justify-content: space-between;
+     gap: 40px;
+ }
+ 
+ .offers .bend {
+     margin-top: 40px;
+ }
+ 
+ .offer{
+     
+     width:100%;
+     background: #FFFFFF;
+     box-shadow: 3px 7px 30px rgba(1, 94, 100, 0.15);
+     border-radius: 30px;
+     padding:15px ;
+     margin-top:25px;
+     text-align: center;
+ }
+ 
+ 
+  .offer i{
+    
+  
+     padding:8px 15px;
+     background: #F57170;
+     border-radius: 14px;
+     margin-top: 15px;;
+     
+ }
+ 
+ .price{
+     padding-top:10px;
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 700;
+     font-size: 15px;
+     line-height: 25px;
+     text-align: center;
+     color: #1B2221;
+ }
+ 
+ .offer .text{
+     font-family: 'Mulish';
+     font-style: normal;
+     font-weight: 500;
+     font-size: 13px;
+     line-height: 15px;
+     text-align: center;
+     color: #939393;
+    
+ }
+ 
+ .allOffers{
+      display:flex;
+      justify-content: space-between;
+      align-items: center;
+ }
+ 
+ .allOffers .offers,
+ .allOffers .offerImage {
+     width: 50%;
+ }
+
+/* end of offer section */
+
+footer{
+    padding-top:20px;
+    background: url('../images/footer.png');
+    padding-bottom:30px;    
+}
+
+.logo2 p{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin:10px 10px;
+}
+
+.menu3 ul li{
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+.menu3 ul li a{
+
+    margin:12px 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: -5px;
+   
+}
+
+
+.menu4 ul li a{
+
+    margin:12px 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: -5px;
+   
+}
+
+.menu4 ul li{
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+.logIn p{
+  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+     
+}
+
+.logIn form input{
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 141, 150, 0.5);
+    border-radius: 60px;
+    padding:10px 10px;
+    margin:20px 5px;
+}
+
+.logIn form{
+    position:relative;
+}
+.logIn form i{
+    position:absolute;
+    right:-3px;
+    bottom:22px;
+    padding:9px 25px;
+    background: #F5AF15;
+    border-radius: 60px;
+}
+
+footer ul li {
+    list-style-type: disc;
+}
+
+footer .border{
+
+    padding-bottom: 80px;
+}
+
+footer .container:first-child{
+
+    border-bottom: 1px solid #E5E5E5;
+}
+
+
+
+footer .container .copy p{
+    margin-top:15px;
+}
+
+footer .container .author p{
+    margin-top:15px;
+}

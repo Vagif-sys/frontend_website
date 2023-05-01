@@ -1,0 +1,304 @@
+@media screen and (max-width:580px){
+
+   header{
+     width:50px;
+   }
+
+
+   .banner {
+
+      height:190vh;
+   }
+
+   .humburger{
+     display:block;
+   }
+
+
+   .menu,.loginAndRegister1{
+
+        display:none
+    }
+    
+    #resMenu1{
+
+        display:none;
+    }
+
+    .resX{
+
+        position:absolute;
+        top:20px;
+        right:20px;
+        
+    }
+
+    .text{
+
+        flex-direction:column;
+     
+    }
+
+    .title h2{
+
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 30px;
+        color: #1B2221;
+        margin-top:70px;
+    }
+
+   .title{
+
+      margin-bottom:20px;
+   }
+
+    .girl img{
+
+        width:65%;
+        
+    }
+
+
+    .row{
+
+         flex-direction: column;
+         text-align: center;
+         margin-top:15px;
+    }
+
+
+    .row h2{
+
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 25px;
+        line-height: 35px;
+        color: #1B2221;
+    }
+
+    .row .menu2{
+        width:100%
+        
+    }
+   
+    
+    .menu2 .type{
+    
+        font-family: 'Mulish';
+        font-style: normal;
+        font-size: 15px;
+        text-align: center;
+        color: #008D96;
+        padding:5px 10px;
+        border: 1px solid #008D96;
+        border-radius: 8px;
+    }
+
+    .lessons {
+        
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align:center
+    }
+
+     
+    .lesson {
+        width:50%;
+        background: #FFFFFF;
+        box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.09);
+        border-radius: 20px;
+        padding: 10px;
+       
+    }
+   
+
+   .allOffers {
+
+    flex-direction: column;
+   }
+
+   .offerImage img{
+      width:75%;
+   }
+
+    .title2 h2{
+        
+        
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 30px;
+        color: #1B2221;
+        text-align: center;
+
+    }
+
+    
+
+    .offers{
+        width:70%;
+        display:flex;
+        align-items: center;
+        justify-content: center;
+        gap: 40px;
+
+    }
+   
+  
+
+    .title2 p{
+
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 20px;
+        line-height: 36px;
+        color: #1B2221;
+        text-align: center;
+    }
+
+
+    .logIn form i{
+        position:absolute;
+        right:105px;
+        bottom:22px;
+        padding:9px 25px;
+        background: #F5AF15;
+        border-radius: 60px;
+        cursor:pointer;
+    }
+
+}
+
+@media(max-width:768px){
+
+     
+      .logo {
+         
+          width:10%
+      }
+
+      .logo img{
+         width:150%;
+      }
+
+      
+
+      .menu .menuLinks .menuLink .courses{
+          
+            font-family: 'Mulish';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 15px;
+            line-height: 28px;
+            color: #1B2221;
+      }
+
+      .menu .menuLinks .menuLink svg{
+          
+           width:15px;
+      }
+
+      .menu .menuLinks .menuLink .wish{
+
+        font-family: 'Mulish';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 15px;
+        text-align: center;
+        color: #008D96;
+    }
+
+    .menuLinks{
+
+        margin-left: 15px;
+    }
+
+     .menuLink.courses a{
+
+          width:30%;
+      }
+
+
+    header .loginAndRegister1 .loginAndRegisterButtons1 .registerBtn1{
+
+        padding:7px 15px;
+        background: #008D96;
+        border-radius: 40px;
+        color:#fff;
+        margin-right:25px;
+    }
+
+  
+
+    .lessons{
+        display:flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        width:100%
+        
+    }
+
+    .lesson {
+        width: 33%;
+        background: #FFFFFF;
+        box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.09);
+        border-radius: 20px;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+
+    .title2{
+
+        text-align: center;
+    }
+
+    .title2 h2{
+
+        font-family: 'Lora';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 68px;
+        color: #1B2221;
+    }
+     
+    .allOffers{
+
+        display:flex;
+        justify-content: center;
+    }
+
+       .girl {
+
+          display:none;
+       }
+
+       .text {
+
+           display:flex;
+           justify-content: center;
+       }
+
+
+
+       .offerImage{
+            
+          display:none
+       }
+
+
+       .banner{
+
+          height:130vh;
+       }
+
+ }
+/* end of index file */

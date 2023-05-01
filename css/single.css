@@ -1,0 +1,905 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none ;
+    text-decoration: none;
+}
+
+header{
+
+    width:100%;
+    padding:20px 0;
+   
+}
+
+.container{
+
+    margin:0 auto;
+    max-width:1100px;
+    width:100%;
+   
+}
+
+.row{
+    display: flex;
+    justify-content: space-between
+}
+
+header .loginAndRegister1 .loginAndRegisterButtons1 li {
+    margin-left:11px;
+}
+
+header .loginAndRegister1 .loginAndRegisterButtons1 .registerBtn1{
+
+    padding:7px 25px;
+    background: #008D96;
+    border-radius: 40px;
+    color:#fff;
+}
+
+header .loginAndRegister1 .loginAndRegisterButtons1 .registerBtn1{
+
+    padding:7px 25px;
+    background: #008D96;
+    border-radius: 40px;
+    color:#fff;
+}
+
+header .loginAndRegister1 .loginAndRegisterButtons1 .loginBtn1{
+
+    padding:7px 25px;
+    border:1px solid #008D96;
+    border-radius: 40px;
+    color: #008D96;
+}
+
+.loginAndRegisterButtons1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.wish {
+    padding: 0 10px;
+    margin-right: 30px;
+}
+
+.logo,
+.menu,
+.loginAndRegister{
+    width: 33%;
+   
+}
+
+
+header .menu .menuLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.menu .menuLinks .menuLink .courses{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1B2221;
+}
+
+.menu .menuLinks .menuLink .wish{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #008D96;
+}
+
+
+.humburger{
+
+    position:absolute;
+     top:30px;
+     left:490px;
+     display:none;
+     cursor:pointer;
+     font-size:30px;
+ }
+
+ /* mobile menu */
+.resMenu{
+
+    width:0;
+    padding:40px 5px 0 25px;
+    background:url('../images/resMenu.png');
+    display:none;   
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+   
+    
+}
+
+.resX{
+
+    position:absolute;
+    top:50px;
+    right:150px;
+    
+}
+
+.frontend{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #1B2221;
+}
+
+.mobileMenu li a{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939393;
+    margin-left:25px;
+ 
+}
+
+.backend{
+
+    margin-top:20px;
+}
+
+.ux{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #1B2221;
+    margin-top:2px;
+}
+
+.resMenu .ux{
+
+    border-bottom: 1px solid #DDE5E7;
+    width:250px;
+}
+
+
+.loginAndRegister{
+
+    margin:25px 15px;
+   
+}
+
+.loginAndRegisterButtons .loginBtn{
+
+    
+    padding-top:10px;
+    border: 1px solid #008D96;
+    border-radius: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #008D96;
+}
+
+.loginAndRegisterButtons .registerBtn{
+  
+    background: #008D96;
+    border-radius: 40px;
+   
+    padding-top:10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top:20px;
+    
+}
+
+.loginAndRegisterButtons{
+
+    display:block;
+    margin-top:25px;
+}
+
+.mobileWish{
+
+    margin-top:20px;
+}
+
+.mobileWish a{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #1B2221;
+    margin:35px 0 25px;
+}
+
+
+.mobileWish img{
+   
+   font-size:15px;
+}
+
+ .mobileMenu .mobileActive{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #1B2221;
+}
+
+/* finihs of header section */
+
+.banner{
+    height:100px;
+    background-image:
+    linear-gradient(rgba(0, 141, 150, 1), rgba(0, 141, 150, 0.5)),
+    url('../images/laptop.png');
+    background-size: cover;
+    padding: 20px;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+
+.banner h2{
+
+    text-align: center;
+    margin-top:15px;
+    color:white;
+}
+
+.singlePage ul li{
+
+     display:inline-block;
+    margin:10px 20px 10px 0;
+
+}
+
+.singlePage .mainPage{
+     
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #939393;
+}
+
+.singlePage .courses{
+     
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 20px;
+    color: #939393;
+}
+
+.singlePage .androidDev{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #1B2221;
+}
+
+.singlePage ul li:not(:first-child)::before{
+
+    content: '\25cf\a0';
+    color: #939393;
+    margin-right: 20px;
+}
+
+.singlePageCount{
+   
+    display:flex;
+    align-items: center;
+    height: 50px;
+    width:60%;
+    border-bottom: 1px solid #E5E5E5
+}
+
+.singlePageCount p{
+
+    margin-right:50px;
+}
+
+.singlePageCount img{
+    margin-right:15px;
+    
+}
+
+.singlePageCount div:last-child{
+    
+    display: flex;
+    align-items: center;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+     color: #939393;
+    
+}
+
+.videoTitle{
+
+    display:flex;
+    
+}
+
+.videoTitle img{
+    filter: drop-shadow(2px 10px 20px rgba(0, 0, 0, 0.15));
+  
+}
+
+.tasks {
+    width:60%;
+    border-top: 3px solid #E6E6E6;
+}
+
+h2.tasks{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    color: #1B2221;
+    padding-top:15px;
+}
+
+.tasks i{
+    margin-right:15px;
+}
+
+.codeTasks{
+    width:60%;
+    margin-top:10px;
+    padding:15px 10px;
+   
+    background: #FBFBFB;
+    border: 1px solid #ECE2CB;
+    border-radius: 8px;
+}
+
+.codeTask{
+
+    margin-left:15px;
+}
+
+.codeTask .codeTaskLesson{
+
+    width:80%;
+    background: #ECE2CB;
+    border: 1px solid #ECE2CB;
+    border-radius: 8px;
+    padding:5px 20px;
+
+}
+
+.codeTask h3{
+	
+	margin:15px 0 15px 0;
+}
+
+.codeTasks .codeBtn{
+
+    padding:5px 25px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #BE870D;
+    border: 1px solid #BE870D;
+    border-radius: 70px;
+    margin-top:15px;
+}
+
+.codeTasks p{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 22px;
+    color: #1B2221;
+    margin-top:15px;
+}
+
+.codeTasks .arrow{
+    
+    margin-left:10px;
+    transform: rotate(180deg);
+}
+
+.closedAnswer {
+	
+	width:425px;
+	padding:10px 20px;
+	background: #FBFBFB;
+	border: 1px solid #ECE2CB;
+	border-radius: 8px;
+	margin-top:15px;
+}
+
+.innerClosedAnswer{
+	
+	margin:15px 20px;
+}
+
+
+.innerClosedAnswer h3{
+	color: #BE870D;
+	margin:15px 0 15px 0;
+}
+
+.innerClosedAnswer .codeBtn{
+
+    padding:5px 25px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    color: #BE870D;
+    border: 1px solid #BE870D;
+    border-radius: 70px;
+    margin-top:15px;
+}
+
+.innerClosedAnswer p{
+
+    font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 500;
+	font-size: 14px;
+	color: #1B2221;
+}
+
+.innerClosedAnswer .arrow{
+    
+    margin-left:10px;
+    transform: rotate(180deg);
+}
+
+.videoLesson{
+
+    width:100%
+}
+
+.videoLesson .textAndroid{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #1B2221;
+}
+
+.videoLesson h2{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 33px;
+    color: #008D96;
+    margin-top:15px;
+}
+
+.videoAndroid{
+
+     margin:20px 0 0 35px;
+
+}
+
+.videoLessonText{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+    color: #939393;
+    margin-top:15px;
+}
+
+.videoBox{
+    width:290px;
+    background: #FFFFFF;
+    opacity: 0.8;
+    border: 1px solid #DFDBDB;
+    border-radius: 8px;
+   
+    
+}
+
+
+.createAndroid{
+
+    background: #E3F1F2;
+    opacity: 0.8;
+    border-radius: 8px 8px 0px 0px;
+    
+   
+}
+
+.card div{
+
+    display:flex;
+   align-items: center;
+ 
+  
+}
+
+.card input{
+
+    margin-right:15px;
+}
+
+
+.card{
+
+    border: 1px solid #DFDBDB;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #1B2221;
+    padding: 20px;
+   
+}
+
+.card2{
+    border: 1px solid #DFDBDB;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    color: #1B2221;
+    padding: 20px;
+    background: rgba(255, 248, 248, 1);
+
+}
+
+.card2 div{
+
+    display:flex;
+   align-items: center;
+ 
+  
+}
+
+.card2 input{
+    margin-right:15px;
+}
+
+
+ .allSideVideoLessons{
+
+     display:flex;
+     justify-content: space-between;
+  
+} 
+
+.sideVideoLessons h2{
+    margin-top:20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #1B2221;
+}
+
+.videoBoxes{
+    margin-bottom: 20px;
+}
+
+.phoneText{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 24px;
+    color: #939393;
+}
+
+.codeLesson{
+
+    width:50%;
+    margin-top:10px;
+    padding:10px 20px;
+    background: #ECF8F9;
+    border: 1px solid #CAE6E8;
+    border-radius: 8px;
+ 
+
+}
+
+
+.codeText{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #939393;
+    margin-top:15px;
+}
+
+.forText{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    color: #939393;
+}
+
+.lessons {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+    padding-bottom:80px;
+   
+}
+
+.lesson {
+    width: calc(25% - 10px);
+    background: #FFFFFF;
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.lesson .lessonImage {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.lessonCount{
+
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+      
+}
+
+
+.lessonText{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lessonCount  img{
+
+    margin-right:10px;
+}
+
+.front{
+    
+    padding:2px 10px;
+    /* margin-left:5px; */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #1B2221;
+    background: #F5AF15;
+    opacity: 0.2;
+    border-radius: 8px;
+}
+
+.eighteen{
+
+    margin-right:10px;
+}
+
+.lessonCount div:last-child {
+    display: flex;
+    align-items: center;
+
+}
+
+.lessonText i{
+
+    background: #008D96;
+    box-shadow: 3px 8px 20px rgba(2, 121, 129, 0.2);
+    border-radius: 50%;
+    padding:8px 10px;
+    margin-right:10px;
+
+}
+
+.coursesBottomBtn{
+    width: 129px;
+    display:block;
+    margin:25px 10px;
+    padding:7px 15px;
+    text-align: center;
+    border:1px solid #008D96;
+    background: #008D96;
+    box-shadow: 0px 16px 40px rgba(1, 94, 100, 0.15);
+    border-radius: 70px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.similarCourses h3{
+	
+	font-family: 'Mulish';
+	font-style: normal;
+	font-weight: 700;
+	color: #1B2221;
+	margin:60px 0 15px;
+}
+
+/* footer section */
+
+
+footer{
+    padding-top:20px;
+    background: url('../images/footer.png');
+    padding-bottom:30px;    
+}
+
+.logo2 p{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin:10px 10px;
+}
+
+.menu3 ul li{
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+.menu3 ul li a{
+
+    margin:12px 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 10px;
+
+}
+
+.menu4 ul li a{
+
+    margin:12px 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: 10px;
+   
+}
+
+
+.menu4 ul li{
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+.logIn p{
+  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left:10px;
+}
+
+.logIn form input{
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 141, 150, 0.5);
+    border-radius: 60px;
+    padding:10px 10px;
+    margin:20px 5px;
+}
+
+
+.logIn form input{
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 141, 150, 0.5);
+    border-radius: 60px;
+    padding:10px 10px;
+    margin:20px 5px;
+}
+
+.logIn form{
+    position:relative;
+}
+.logIn form i{
+    position:absolute;
+    right:-3px;
+    bottom:22px;
+    padding:9px 25px;
+    background: #F5AF15;
+    border-radius: 60px;
+}
+
+footer ul li {
+    list-style-type: disc;
+}
+
+footer .border{
+    padding-bottom:80px;
+    
+}
+
+footer .container:first-child{
+
+    border-bottom: 1px solid #E5E5E5;
+}
+
+footer .container .copy p{
+    margin-top:15px;
+}
+
+footer .container .author p{
+    margin-top:15px;
+}

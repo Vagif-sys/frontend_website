@@ -1,0 +1,366 @@
+@media screen and (max-width:580px){
+    .align-items-center {
+        align-items: flex-start !important;
+    }
+
+    header{
+      width:100%;
+    }
+  
+   
+
+    .banner {
+ 
+       width:100%;
+    }
+
+ 
+    .humburger{
+      display:block;
+    }
+ 
+ 
+    .menu,.loginAndRegister1{
+ 
+         display:none
+     }
+     
+     #resMenu1{
+ 
+         display:none;
+     }
+ 
+     .resX{
+ 
+         position:absolute;
+         top:20px;
+         right:20px;
+         
+     }
+
+    .singlePage{
+
+        text-align: center;
+    }
+
+    .singlePageCount{
+
+        margin:0 auto;
+    }
+
+
+    .codeLesson{
+
+        text-align: center;
+    }
+ 
+     .videoTitle{
+ 
+        flex-direction: column;
+      
+     }
+      
+     
+     .videoTitle img{
+
+        margin:0 auto;
+     }
+
+     .videoLesson p{
+
+        margin-top:15px;
+
+      }
+
+
+      .videoLesson{
+
+          text-align: center;
+      }
+
+      .videoAndroid img{
+
+          width:300px;
+      }
+
+      .phone img{
+
+        width:300px;
+      }
+
+     .sideVideoLessons{
+
+        display:none;
+     }
+ 
+     .codeLesson{
+
+        margin:15px auto;
+     }
+
+     .tasks {
+
+         margin:0 auto;
+     }
+
+
+     .codeTasks{
+
+        margin:15px auto;
+     }
+
+     .closedAnswer{
+        margin:15px auto;
+     }
+
+     .similarCourses h3 {
+
+
+        text-align: center;
+     }
+ 
+     .lessons {
+         
+         width:100%;
+         display:flex;
+         justify-content: center;
+         align-items: center;
+         flex-wrap: wrap;
+         text-align:center
+     }
+ 
+      
+     .lesson {
+         width:33%;
+         background: #FFFFFF;
+         box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.09);
+         border-radius: 20px;
+         padding: 10px;
+        
+     }
+    
+ 
+   
+ 
+ 
+ 
+     .logIn form i{
+         position:absolute;
+         right:350px;
+         bottom:22px;
+         padding:9px 25px;
+         background: #F5AF15;
+         border-radius: 60px;
+         cursor:pointer;
+     }
+
+
+     .row{
+ 
+        flex-direction: column;
+       
+        margin-top:15px;
+    }
+
+
+   .row h2{
+
+       font-family: 'Lora';
+       font-style: normal;
+       font-weight: 600;
+       font-size: 25px;
+       line-height: 35px;
+      
+       color: #1B2221;
+   }
+
+   .row .menu2{
+       width:100%
+       
+   }
+ 
+ }
+
+@media screen and (max-width:768px) {
+
+    .align-items-center {
+        align-items: center;
+    }
+
+    .logo{
+
+        width:155px;
+    }
+
+     .menuLinks{
+
+         width:300px;
+     }
+     
+    
+    
+
+      .sideVideoLessons{
+
+          display:none !important;
+      }
+
+      
+      header .loginAndRegister1 .loginAndRegisterButtons1 .registerBtn1{
+
+        padding:7px 15px;
+        background: #008D96;
+        border-radius: 40px;
+        color:#fff;
+        margin-right:25px;
+    }
+    
+    
+
+   
+
+    .singlePage{
+
+        text-align: center;
+    }
+
+    .singlePageCount{
+
+        margin:0 auto;
+    }
+
+
+    .codeLesson{
+
+        text-align: center;
+    }
+
+    .videoTitle{
+
+        flex-direction: column;
+    
+    }
+    
+    
+    .videoTitle img{
+
+        margin:0 auto;
+        width:100%;
+        
+    }
+
+    .videoTitle .textAndroid{
+
+        font-size:36px;
+    }
+
+    .videoLesson p{
+
+        margin-top:15px;
+        font-size:20px;
+
+    }
+
+
+    .videoLesson{
+
+        text-align: center;
+    }
+
+    .videoAndroid img{
+
+        width:100%;
+    }
+
+    .videoLessonText{
+
+        font-size:25px;
+    }
+
+    .videoLesson.phone img{
+
+        width:100%;
+    }
+
+    .sideVideoLessons{
+
+        display:none;
+    }
+
+    .codeLesson{
+
+        margin:15px auto;
+      
+       
+    }
+
+    .tasks {
+
+        margin:0 auto;
+    }
+
+
+    .codeTasks{
+
+        margin:15px auto;
+    }
+
+    .closedAnswer{
+        margin:15px auto;
+    }
+
+    .similarCourses h3 {
+
+
+        text-align: center;
+    }
+
+    .lessons {
+        
+        width:100%;
+        display:flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        text-align:center
+    }
+
+    
+    .lesson {
+        width:33%;
+        background: #FFFFFF;
+        box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.09);
+        border-radius: 20px;
+        padding: 10px;
+        
+    }
+
+
+   .nav{
+      
+     flex-direction:column;
+     align-items: flex-start;
+   }
+
+
+
+    .logIn form i{
+        position:absolute;
+        right:12px;
+        bottom:22px;
+        padding:9px 25px;
+        background: #F5AF15;
+        border-radius: 60px;
+        cursor:pointer;
+    }
+
+}
+
+
+
+
+
+
+
+
+

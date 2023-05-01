@@ -1,0 +1,776 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.container{
+
+    max-width:1100px;
+    width:100%;
+    margin:0 auto;
+}
+
+header {
+    padding: 20px 0;
+    position: fixed;
+    width: 100%;
+    
+}
+header .loginAndRegister1 .loginAndRegisterButtons1 li {
+    margin-left:11px;
+}
+.row{
+    display: flex;
+    justify-content: space-between
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+header .loginAndRegister1 .loginAndRegisterButtons1 .registerBtn1{
+
+    padding:7px 25px;
+    background: #008D96;
+    border-radius: 40px;
+    color:#fff;
+}
+
+header .loginAndRegister1 .loginAndRegisterButtons1 .loginBtn1{
+
+    padding:7px 25px;
+    border:1px solid #008D96;
+    border-radius: 40px;
+    color: #008D96;
+}
+
+header .menu .menuLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.loginAndRegisterButtons1 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.wish {
+    padding: 0 10px;
+    margin-right: 30px;
+}
+
+.logo,
+.menu,
+.loginAndRegister{
+    width: 33%;
+}
+
+.menu .menuLinks .menuLink .courses{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1B2221;
+}
+
+
+.menu .menuLinks .menuLink .wish{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #008D96;
+}
+
+
+.humburger{
+
+   position:absolute;
+    top:30px;
+    left:435px;
+    display:none;
+    cursor:pointer;
+    font-size:30px;
+}
+
+
+
+/* mobile menu */
+.resMenu{
+
+    width:0;
+    padding:40px 5px 0 25px;
+    background:url('../images/resMenu.png');
+    display:none;   
+    position: fixed;
+    z-index: 1;
+    height: 100%;
+    top: 0;
+    right: 0;
+    overflow-x: hidden;
+    transition: 0.5s;
+   
+    
+}
+
+.resX{
+
+    position:absolute;
+    top:50px;
+    right:150px;
+    
+}
+
+.frontend{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #1B2221;
+}
+
+.mobileMenu li a{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939393;
+    margin-left:25px;
+ 
+}
+
+.backend{
+
+    margin-top:20px;
+}
+
+.ux{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 25px;
+    line-height: 40px;
+    color: #1B2221;
+    margin-top:2px;
+}
+
+.resMenu .ux{
+
+    border-bottom: 1px solid #DDE5E7;
+    width:250px;
+}
+
+
+.loginAndRegister{
+
+    margin:25px 15px;
+   
+}
+
+.loginAndRegisterButtons .loginBtn{
+
+    
+    padding-top:10px;
+    border: 1px solid #008D96;
+    border-radius: 40px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    text-align: center;
+    color: #008D96;
+}
+
+.loginAndRegisterButtons .registerBtn{
+  
+    background: #008D96;
+    border-radius: 40px;
+   
+    padding-top:10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    text-align: center;
+    color: white;
+    margin-top:20px;
+    
+}
+
+.loginAndRegisterButtons{
+
+    display:block;
+    margin-top:25px;
+}
+
+.mobileWish{
+
+    margin-top:20px;
+}
+
+.mobileWish a{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    color: #1B2221;
+    margin:35px 0 25px;
+}
+
+
+.mobileWish img{
+   
+   font-size:15px;
+}
+
+ .mobileMenu .mobileActive{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #1B2221;
+}
+
+/* for desktop */
+
+.desktop{
+   
+    /* padding:90px 410px; */
+    width: 1140px;
+    height:400px;
+    padding:20px 20px;
+    display:flex;
+    justify-content:space-between;
+    background: url('../images/desktopMenu.png');
+    margin-top:350px;
+    z-index:999;
+    position:absolute;
+    display:none;
+    
+}
+
+.desktopNav {
+     
+   height:50%;
+   padding:20px 80px;
+   border-right: 1px solid #D9D9D9;
+   margin:50px;
+   
+}
+
+
+
+.desktopNav .desktopActive{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 35px;
+    color: #1B2221;
+    line-height: 50px;
+  
+}
+
+
+.desktopNav .backend{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    line-height: 50px;
+    font-size: 30px;
+}
+
+.desktopNav .ux{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    
+}
+
+.subNav{
+
+     width:60%;
+     margin-top:75px;
+    
+}
+
+.subNav a{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 30px;
+    color: #939393;
+   
+}
+
+.subNav.subnavActive{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 30px;
+    color: #1B2221;
+}
+
+
+.deskX{
+
+    position:absolute;
+    top:30px;
+    left:300px;
+}
+
+/* finish of header section*/
+
+
+/* start of banner section*/
+
+.text{
+
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+
+
+.title h2{
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 50px;
+    color: #1B2221;
+    margin-top: 25px;
+}
+
+.title  .coursesBtn{
+    
+    display:inline-block;
+    padding:8px 40px;
+    margin-top:20px;
+    background: #008D96;
+    box-shadow: 0px 20px 40px rgba(1, 94, 100, 0.2);
+    border-radius: 70px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 25px;
+    color: #FFFFFF;
+       
+}
+
+.text .arrow{
+   width:10px;
+   height:10px;
+   margin-left: 20px;   
+}
+
+
+
+.text .title .orange{
+
+    color: #F5AF15;
+    
+}
+
+
+
+.banner {
+    background-image: url('../images/bg1.jpg');
+    padding-top: 50px;
+    height:150vh;
+    background-repeat: no-repeat;
+    background-size:cover;
+    }
+
+
+
+
+/* section courses */
+
+
+
+.courses .popular{
+
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 68px;
+    color: #1B2221;
+    
+}
+
+.menu2 ul li{
+
+    display:inline-block;
+    margin:25px 5px;
+   
+}
+
+.active{
+    
+    padding:5px 20px;
+    background: #008D96;
+    border-radius: 8px;
+    font-size: 16px;
+    text-align: center;
+    color:#FFFFFF
+}
+
+.menu2 .type{
+    
+    font-family: 'Mulish';
+    font-style: normal;
+    font-size: 16px;
+    line-height: 23px;
+    text-align: center;
+    color: #008D96;
+    padding:5px 20px;
+    border: 1px solid #008D96;
+    border-radius: 8px;
+}
+
+.lessons {
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.lesson {
+    width: calc(25% - 10px);
+    background: #FFFFFF;
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.lesson .lessonImage {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.lessonCount{
+
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+      
+}
+
+.lessonText{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lessonCount  img{
+
+    margin-right:10px;
+}
+
+.front{
+    
+    padding:2px 10px;
+    /* margin-left:5px; */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #1B2221;
+    background: #F5AF15;
+    opacity: 0.2;
+    border-radius: 8px;
+}
+
+.eighteen{
+
+    margin-right:10px;
+}
+
+.lessonCount div:last-child {
+    display: flex;
+    align-items: center;
+
+}
+
+
+.lessonText i{
+
+    background: #008D96;
+    box-shadow: 3px 8px 20px rgba(2, 121, 129, 0.2);
+    border-radius: 50%;
+    padding:8px 10px;
+    margin-right:10px;
+
+}
+
+.coursesBottomBtn{
+    width: 129px;
+    display:block;
+    margin:25px 10px;
+    padding:7px 15px;
+    text-align: center;
+    border:1px solid #008D96;
+    background: #008D96;
+    box-shadow: 0px 16px 40px rgba(1, 94, 100, 0.15);
+    border-radius: 70px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.allCoursesBtn{
+
+    display:flex;
+    justify-content: center;
+   
+}
+
+section.adv{
+   padding-bottom: 90px;
+    background: #E3F1F2;
+  
+}
+
+.title2 {
+    padding-top: 60px;
+}
+.title2 h2{
+    
+    
+    font-family: 'Lora';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 41px;
+    line-height: 68px;
+    color: #1B2221;
+
+}
+
+.title2 p{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 36px;
+    color: #1B2221;
+}
+
+.offers{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 40px;
+}
+
+.offers .bend {
+    margin-top: 40px;
+}
+
+.offer{
+    
+    width:100%;
+    background: #FFFFFF;
+    box-shadow: 3px 7px 30px rgba(1, 94, 100, 0.15);
+    border-radius: 30px;
+    padding:15px ;
+    margin-top:25px;
+    text-align: center;
+}
+
+
+ .offer i{
+   
+ 
+    padding:8px 15px;
+    background: #F57170;
+    border-radius: 14px;
+    margin-top: 15px;;
+    
+}
+
+.price{
+    padding-top:10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    text-align: center;
+    color: #1B2221;
+}
+
+.offer .text{
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 15px;
+    text-align: center;
+    color: #939393;
+   
+}
+
+.allOffers{
+     display:flex;
+     justify-content: space-between;
+     align-items: center;
+}
+
+.allOffers .offers,
+.allOffers .offerImage {
+    width: 50%;
+}
+
+
+
+/* footer */
+
+footer{
+    padding-top:20px;
+    background: url('../images/footer.png');
+    padding-bottom:30px;    
+}
+
+.logo2 p{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin:10px 10px;
+}
+
+.menu3 ul li{
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+.menu3 ul li a{
+
+    margin:12px 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: -5px;
+   
+}
+
+
+.menu4 ul li a{
+
+    margin:12px 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: -5px;
+   
+}
+
+.menu4 ul li{
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+.logIn p{
+  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+     
+}
+
+.logIn form input{
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 141, 150, 0.5);
+    border-radius: 60px;
+    padding:10px 10px;
+    margin:20px 5px;
+}
+
+.logIn form{
+    position:relative;
+}
+.logIn form i{
+    position:absolute;
+    right:-3px;
+    bottom:22px;
+    padding:9px 25px;
+    background: #F5AF15;
+    border-radius: 60px;
+}
+
+footer ul li {
+    list-style-type: disc;
+}
+
+footer .container:first-child{
+
+    border-bottom: 1px solid #E5E5E5;
+}
+
+
+
+footer .container .copy p{
+    margin-top:15px;
+}
+
+footer .container .author p{
+    margin-top:15px;
+}
+
+

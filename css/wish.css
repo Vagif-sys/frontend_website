@@ -1,0 +1,432 @@
+*{
+    padding:0;
+    margin:0;
+    list-style: none;
+    text-decoration: none;
+}
+
+header{
+
+    width:100%;
+    padding:20px 0;
+    background: #FAFDFD;
+    box-shadow: 0px 10px 20px rgba(0, 60, 64, 0.06);
+}
+
+.container{
+
+    margin:0 auto;
+    max-width:1100px;
+    width:100%;
+   
+}
+
+.row{
+    display: flex;
+    justify-content: space-between
+}
+
+header .loginAndRegister .loginAndRegisterButtons li {
+    margin-left:11px;
+}
+
+header .loginAndRegister .loginAndRegisterButtons .registerBtn{
+
+    padding:7px 25px;
+    background: #008D96;
+    border-radius: 40px;
+    color:#fff;
+}
+
+header .loginAndRegister .loginAndRegisterButtons .loginBtn{
+
+    padding:7px 25px;
+    border:1px solid #008D96;
+    border-radius: 40px;
+    color: #008D96;
+}
+
+
+header .menu .menuLinks {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.loginAndRegisterButtons {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+
+.wish {
+    padding: 0 10px;
+    margin-right: 30px;
+}
+
+.logo,
+.menu,
+.loginAndRegister{
+    width: 33%;
+   
+}
+
+.menu .menuLinks .menuLink .courses{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 28px;
+    color: #1B2221;
+}
+
+.menu .menuLinks .menuLink .wish{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 20px;
+    text-align: center;
+    color: #008D96;
+}
+
+/* end of header section */
+
+
+.personalMember{
+    display:flex;
+    margin-top:50px;
+    margin-bottom:80px;
+}
+
+.personalData{
+   
+    width:180px;
+    box-shadow: 6px 10px 20px rgba(1, 94, 100, 0.06);
+    border-radius: 20px;
+    
+}
+
+.personalData ul  a{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #939393;
+}
+
+.personalData h2{
+
+   
+    width:140px;
+    padding:15px 20px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    text-align:center;
+    line-height: 25px;
+    color: #FFFFFF;
+    background: #008D96;
+    border-radius: 20px 20px 0px 0px;
+}
+
+.menuPersonals{
+    
+     display:flex;
+     justify-content: center;
+     align-items:center;
+     margin-top:10px;   
+}
+
+.menuPersonal i{
+
+     margin:10px 10px;
+}
+
+.menuPersonal a li{
+    
+    padding:5px 0 5px 20px;
+    width:180px;
+    position:relative;
+    padding-left:20px;
+    box-sizing: border-box;
+}
+
+ .left:before {
+    content: "";
+    position: absolute;
+    left: -4px;
+    top: 2px;
+    height: 35px;
+    width: 3px;
+    background: #008D96;
+    border-radius: 0px;
+  
+   
+  }
+
+ .active{
+
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #008D96;
+    background: #FBFBFB;
+    border-radius: 0px; 
+ }
+
+/* end of personal data */
+
+.wishList{
+
+    margin:15px 40px;
+}
+
+.lessons {
+    
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    flex-wrap:wrap;
+    gap:20px;
+    width:100%;
+    
+}
+
+.lesson {
+   
+    background: #FFFFFF;
+    box-shadow: 2px 8px 20px rgba(0, 0, 0, 0.09);
+    border-radius: 20px;
+    padding: 10px;
+    box-sizing: border-box;
+    
+}
+
+.lesson .lessonImage {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.lessonCount{
+
+    border-bottom: 1px solid #D9D9D9;
+    padding-bottom:10px;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom:10px;
+      
+}
+
+
+.lessonText{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.lessonCount  img{
+
+    margin-right:10px;
+}
+
+.front{
+    
+    padding:2px 10px;
+    /* margin-left:5px; */
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 20px;
+    text-align: center;
+    color: #1B2221;
+    background: #F5AF15;
+    opacity: 0.2;
+    border-radius: 8px;
+}
+
+.eighteen{
+
+    margin-right:10px;
+}
+
+.lessonCount div:last-child {
+    display: flex;
+    align-items: center;
+
+}
+
+.lessonText i{
+
+    background: #008D96;
+    box-shadow: 3px 8px 20px rgba(2, 121, 129, 0.2);
+    border-radius: 50%;
+    padding:8px 10px;
+    margin-right:10px;
+
+}
+
+.coursesBottomBtn{
+    width: 129px;
+    display:block;
+    margin:25px 10px;
+    padding:7px 15px;
+    text-align: center;
+    border:1px solid #008D96;
+    background: #008D96;
+    box-shadow: 0px 16px 40px rgba(1, 94, 100, 0.15);
+    border-radius: 70px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    border:none;
+}
+
+
+.allCoursesBtn{
+
+    display:flex;
+    justify-content: center;
+   
+}
+
+
+
+/* end of table */
+
+footer{
+    padding-top:20px;
+    background: url('../images/footer.png');
+    padding-bottom:30px;    
+}
+
+.logo2 p{
+
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 26px;
+    color: #FFFFFF;
+    margin:10px 10px;
+}
+
+.menu3 ul li{
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+.menu3 ul li a{
+
+    margin:12px 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: -5px;
+   
+}
+
+.menu4 ul li a{
+
+    margin:12px 10px;
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    margin-left: -5px;
+   
+}
+
+
+.menu4 ul li{
+    color: #FFFFFF;
+    margin-bottom:10px;
+}
+
+.logIn p{
+  
+    font-family: 'Mulish';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+     
+}
+
+.logIn form input{
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 141, 150, 0.5);
+    border-radius: 60px;
+    padding:10px 10px;
+    margin:20px 5px;
+}
+
+
+.logIn form input{
+
+    background: #FFFFFF;
+    border: 1px solid rgba(0, 141, 150, 0.5);
+    border-radius: 60px;
+    padding:10px 10px;
+    margin:20px 5px;
+}
+
+.logIn form{
+    position:relative;
+}
+.logIn form i{
+    position:absolute;
+    right:-3px;
+    bottom:22px;
+    padding:9px 25px;
+    background: #F5AF15;
+    border-radius: 60px;
+}
+
+footer ul li {
+    list-style-type: disc;
+}
+
+footer .border{
+    padding-bottom:80px;
+    
+}
+
+footer .container:first-child{
+
+    border-bottom: 1px solid #E5E5E5;
+}
+
+footer .container .copy p{
+    margin-top:15px;
+}
+
+footer .container .author p{
+    margin-top:15px;
+}
+
+
+
+
