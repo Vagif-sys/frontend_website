@@ -16,6 +16,7 @@ header {
     padding: 20px 0;
     position: fixed;
     width: 100%;
+	
     
 }
 header .loginAndRegister1 .loginAndRegisterButtons1 li {
@@ -25,6 +26,32 @@ header .loginAndRegister1 .loginAndRegisterButtons1 li {
     display: flex;
     justify-content: space-between
 }
+
+
+header.sticky {
+  position: fixed;
+  box-shadow: 0 5px 16px rgba(0, 0, 0, 0.1);
+  padding: 8px 0;
+  backdrop-filter: blur(10px);
+  animation: slideDown 0.35s ease-out;
+}
+header.sticky img {
+  max-width: 80%;
+}
+header.sticky button {
+  font-size: 14px;
+  padding: 7px 10px;
+}
+@keyframes slideDown {
+  from {
+    transform: translateY(-100%);
+  }
+  to {
+    transform: translateY(0);
+  }
+}
+
+
 
 .align-items-center {
     align-items: center;
